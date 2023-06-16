@@ -28,7 +28,7 @@ CREATE TABLE `candy` (
   `description` varchar(250) DEFAULT NULL,
   `image_url` varchar(2048) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,6 +37,7 @@ CREATE TABLE `candy` (
 
 LOCK TABLES `candy` WRITE;
 /*!40000 ALTER TABLE `candy` DISABLE KEYS */;
+INSERT INTO `candy` VALUES (12,'Candy','candy','candy');
 /*!40000 ALTER TABLE `candy` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -118,4 +119,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-14 22:20:21
+-- Dump completed on 2023-06-16 11:34:19
